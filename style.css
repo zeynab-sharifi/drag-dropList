@@ -9,4 +9,32 @@
 body{
     color: #000;
     font-family: 'Vazir', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.list-show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+    margin: 25px 20px;
+    padding: 5px 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+    border-radius: 7px;
+}
+.header-list{
+    border: 5px solid #e74c3c;
+    border-radius: 50%;;
+    padding: 10px 40px;
+    margin: 20px auto;
+}
+.id-list{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #e74c3c;
+}
+.body-list{
+    border-top:solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf;
+    padding: 5px 10px;
 }
