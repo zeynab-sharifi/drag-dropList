@@ -1,9 +1,15 @@
 class draggble{
     dragSrecEl;
+    list;
+    update;
+
 
     constructor(options){
         this.setupList(options);
-
+        this.list = options.list;
+        
+        if(options.update) this.update = options.update;
+            
         //It brings the children of ID back to us el=#list
         //  console.log(options.el.children)  
         for(let listItem of options.el.children){
@@ -85,5 +91,10 @@ class draggble{
         // console.log('data end',e.target)
 
         e.target.classList.remove('dragElem');
+
+        //Sort the list
+        let newList = [];
+        list.querySelectorAll('.list-show').forEach(elm => newList.push(this.list.find(item => elm.id == item.id)))
+        this.update(newList);
     }
 }
