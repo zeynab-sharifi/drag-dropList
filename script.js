@@ -1,10 +1,10 @@
 let data=[
-    {id:1,title:'آییتم شماره 1',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magni ipsa eaque perspiciatis et non, vero rerum obcaecati numquam nemo natus illum exercitationem? Accusamus, maiores saepe fuga animi iure asperiores.'},
-    {id:2,title:'آییتم شماره 2',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magni ipsa eaque perspiciatis et non, vero rerum obcaecati numquam nemo natus illum exercitationem? Accusamus, maiores saepe fuga animi iure asperiores.'},
-    {id:3,title:'آییتم شماره 3',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magni ipsa eaque perspiciatis et non, vero rerum obcaecati numquam nemo natus illum exercitationem? Accusamus, maiores saepe fuga animi iure asperiores.'},
-    {id:4,title:'آییتم شماره 4',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magni ipsa eaque perspiciatis et non, vero rerum obcaecati numquam nemo natus illum exercitationem? Accusamus, maiores saepe fuga animi iure asperiores.'},
-    {id:5,title:'آییتم شماره 5',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magni ipsa eaque perspiciatis et non, vero rerum obcaecati numquam nemo natus illum exercitationem? Accusamus, maiores saepe fuga animi iure asperiores.'},
-    {id:6,title:'آییتم شماره 6',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magni ipsa eaque perspiciatis et non, vero rerum obcaecati numquam nemo natus illum exercitationem? Accusamus, maiores saepe fuga animi iure asperiores.'},
+    {id:1,title:'آییتم شماره 1',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'},
+    {id:2,title:'آییتم شماره 2',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'},
+    {id:3,title:'آییتم شماره 3',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'},
+    {id:4,title:'آییتم شماره 4',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'},
+    {id:5,title:'آییتم شماره 5',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'},
+    {id:6,title:'آییتم شماره 6',text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'},
 ]
 
 

@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: row;
 }
-.list-show{
+.list .list-show{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,6 +21,7 @@ body{
     padding: 5px 10px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
     border-radius: 7px;
+    cursor: move;
 }
 .header-list{
     border: 5px solid #e74c3c;
@@ -37,4 +38,10 @@ body{
     border-top:solid 1px #dfdfdf;
     border-bottom: solid 1px #dfdfdf;
     padding: 5px 10px;
+}
+.dragElem{
+    opacity: 0.4;
+}
+.list-show .over{
+    border-top: 2px solid red;
 }
